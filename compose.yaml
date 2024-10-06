@@ -1,0 +1,12 @@
+services:
+  angular:
+    image: angular
+    build:
+      context: ./
+    ports:
+      - 4200:4200
+    develop:
+      watch:
+        - path: ./src/
+          action: sync
+          target: /app/src
