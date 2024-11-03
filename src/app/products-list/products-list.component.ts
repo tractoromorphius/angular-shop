@@ -10,7 +10,7 @@ import { NgForOf } from '@angular/common';
     NgForOf,
   ],
   templateUrl: './products-list.component.html',
-  styleUrl: './products-list.component.css'
+  styleUrl: './products-list.component.scss'
 })
 export class ProductsListComponent {
 

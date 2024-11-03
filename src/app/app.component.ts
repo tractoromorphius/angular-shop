@@ -12,7 +12,7 @@ import { FiltersListComponent } from './filters-list/filters-list.component';
     FiltersListComponent,
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrl: './app.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {

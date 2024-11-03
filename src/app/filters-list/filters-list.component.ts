@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './filters-list.component.html',
-  styleUrl: './filters-list.component.css'
+  styleUrl: './filters-list.component.scss'
 })
 export class FiltersListComponent {
 

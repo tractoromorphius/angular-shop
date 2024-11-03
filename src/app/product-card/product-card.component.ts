@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
     NgForOf,
   ],
   templateUrl: './product-card.component.html',
-  styleUrl: './product-card.component.css'
+  styleUrl: './product-card.component.scss'
 })
 export class ProductCardComponent {
 
