@@ -1,0 +1,14 @@
+:host {
+  height: 100%;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  height: calc(100% - 32px); //100% - footer height
+  width: 1192px;
+  display: flex;
+}
